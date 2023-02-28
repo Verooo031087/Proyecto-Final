@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <script src="js/actualizar_dato.js"></script>
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="img/foto1.jpg" alt="Foto Principal Curriculum">
+        </div>
+        <section class="descripcion_personal">
+            <h1 class="nombre">Andrea Valiente</h1>
+            <h2>Estudiante</h2>
+            <p>Bachiller con orientacion Economica y Administrativa.Me considero una persona responsable y ordenada. Mi objetivo es obtener un puesto para contribuir en practicas y habilidades en el logro de las metas generales de la empresa y las responsabilidades a mi cargo con la oportunidad de seguir desarrollandome.</p>
+            <nav>
+                <ul>
+                    <li id="email" onmouseover="escribir_email()" onmouseout="borrar()">E-mail</li>
+                    <li id="fnacimiento" onmouseover="escribir_fnac()" onmouseout="borrar()">F. Nacimiento</li>
+                    <li id="domicilio" onmouseover="escribir_domicilio()" onmouseout="borrar()">Direccion</li>
+                    <li id="telefono" onmouseover="escribir_telefono()" onmouseout="borrar()">Telefono</li>
+                    <li id="datoscompletos" onclick="escribir_todo()">Datos Completos</li>
+                </ul>
+            </nav>
+            <p id="contenido_datos"></p>
+        </section>
+    </header>
+    <section class="principal">
+        <section class="columna_educacion">
+            <h2>Educación</h2>
+            <br>
+            <li>Escuela José de San Martin N° 349.<br>Primaria (1994 - 1999)<br>Santo Domingo - Santa Fe.</li>
+            <li>CENS 458<br>Secundaria (2022) Bachiller en Economía y Administración<br>José C. Paz</li>
+            <br>
+            <h2>Cursos</h2>
+            <br>
+            <li>Facturista en prestaciones medico-sanatoriales.</li>
+            <li>Corte y confección</li>
+            <li>Pizzería y Sandwicheria </li>
+            <br>
+            <h2>Otros Conocimientos</h2>
+            <br>
+            <li>Procesador de texto, hoja de cálculos y presentación de Diapositivas</li>
+            
+        </section>
+        <section class="columna_experiencia">
+            <h2>Experiencia laboral</h2>
+            <br>
+            <li>Empresa de Limpieza. Ministerio de Justicia de Santa Fe</li>
+            <li>Reemplazo en Limpieza.</li>
+            <li>Cantina Escolar Esc. Juana del Pino de Rivadavia en Santa Fe</li>
+            <li>Atención y Manejo de Caja</li>
+            <li>Cuidado de Ancianos con cama adentro en casa de Familia(2014 - 2015)San Isidro-Buenos Aires</li>
+            <li>Empleada Domestica en casa de familia(2015 2016)Belgrano-Buenos Aires</li>
+            <li>Ayudante de Cocina-Elaboración.Rotisería Morena(2018-2019)Santa Fe Capital</li>
+            <li>Atención,Cocina,Elaboración, Administracion.Rotiseria El buen Provecho(2019-2021)Maria Luisa-Santa Fe-Argentina</li>
+            <li>Dama de Compañía señora mayor.Casa Particular.(2021-2022)Caballito-Provincia de Buenos Aires</li>
+            <li>Jefa de cocina en Rotiseria La Esquina Jose C.Paz.(07/2022 a la actualidad</li>
+        </section>
+
+        <section class="referencia_laboral">
+            <h2>Numeros de referencias</h2>
+            <br>
+            <li>Sra.Vanesa Epspein-San Isidro Cel.(11)60997665</li>
+            <li>Marcela Bordón-Encargada Rotisería Morena Santa Fe Cel(342)5169150-4533770</li>
+            <li>Fabiana Salinas - Caballito Cel.(11)55655751</li>
+            <li>Gabriel Himmoberdoff-Jose C.Paz Cel.(11)24875720</li>
+
+        </section>
+    </section>
+    <footer>
+        <br><p>Proyecto y Diseño: Andrea Valiente - Todos los derechos reservados</p><br>
+    <!-- Contador de visitas -->
+    <center>
+        <a href="https://websmultimedia.com/contador-de-visitas-gratis" title="Contador De Visitas">
+        <img style="border: 0px solid; display: inline;" alt="contador de visitas" src="https://websmultimedia.com/contador-de-visitas.php?id=9249"></a>
+    </center>
+    <!-- Fin Contador de visitas -->    
+</footer>
+</body>
+</html>

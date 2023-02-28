@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #FFFFFF;
+}
+header{
+    background: #AF8989;
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 98%;
+    height: 455px;
+}
+header div{
+    background: #F5F5F5;
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+header div img{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    float: left;
+    margin: 7% 7%;
+    border: 10px solid #AF8989;
+}
+header section{
+    width: 70%;
+    position: absolute;
+    display: inline-block;
+}
+header section h1{
+    color: #F5F5F5;
+    display: block;
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+header section h2{
+    left: 35px;
+    color: #F5F5F5;
+    display: block;
+    font-size: 40px;
+    position: relative;
+}
+header section p{
+    color: #F5F5F5;
+    display: inline-block;
+    font-size: 25px; 
+    width: 90%;
+    height: auto;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    position: relative;
+    left: 15px;
+}
+
+header section nav{
+    color: #f3f2f8;
+    display: block;
+    position: relative;
+    left: 60px;
+    width: 96%;
+}
+
+header section nav ul li{
+    display: inline-block;
+    background: #FFFFFF;
+    color: #0000ff;
+    font-size: 25px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    box-shadow: 5px 5px #000;
+}
+
+header section nav ul li:hover{
+    background: #FFFFFF;
+    box-shadow: 2px 2px #000;
+}
+
+header section nav ul li a{
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+padding: 10px;
+}
+
+#contenido_datos{
+    text-align: center;
+}
+.principal{
+    display: inline-block;
+    position: absolute;
+    width: 98%;
+    height: 850px;
+    top: 480px;
+    left: 10px;
+    font-size: 25px;
+}
+
+.columna_educacion{
+    background: #AF8989;
+    color: #F5F5F5;
+    display: block;
+    position: relative;
+    float: left;
+    width: 48%;
+    height: 600px;
+    padding: 10px;
+    margin: 0px 0px;
+}
+.columna_experiencia{
+    background: #AF8989;
+    color: #F5F5F5;
+    display: block;
+    position: relative;
+    float: right;
+    width: 48%;
+    height: 600px;
+    padding: 10px;
+    margin: 0px 0px; 
+    left: 0px;
+}
+
+.referencia_laboral{
+    background: #AF8989;
+    color: #F5F5F5;
+    clear: both;
+    width: 98,5%;
+    position: relative;
+    left: 0px;
+    padding: 10px 10px;
+    top: 20px;
+}
+
+footer{
+    background: #AF8989;
+    display: inline-block;
+    position: absolute;
+    width: 98%;
+    height: 150px;
+    top: 1350px;
+    left: 10px;
+}
+
+footer p{
+    color: #F5F5F5;
+    font-size: 25px;
+    text-align: center;
+}
