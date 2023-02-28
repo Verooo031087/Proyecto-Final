@@ -18,7 +18,7 @@ header div{
     background: #F5F5F5;
     display: inline-block;
     width: 30%;
-    height: 400px;
+    height: auto;
     position: relative;
     top: 10px;
     left: 10px;
